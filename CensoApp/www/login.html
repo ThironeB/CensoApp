@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/materialize/css/materialize.css" rel="stylesheet" />
+    <link href="css/login.css" rel="stylesheet" />
+    <title>Login</title>
+</head>
+<body class="valign-wrapper">
+    <div class="container">
+        <form id="LoginForm">
+            <div class="row">
+                <div class="input-field col s8 offset-s2">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input id="txtUsername" type="text">
+                    <label for="txtUsername">Usuario</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s8 offset-s2">
+                    <i class="material-icons prefix">lock</i>
+                    <input id="txtPassword" type="password">
+                    <label for="txtPassword">Contraseña</label>
+                </div>
+            </div>
+            <div class="row">
+                <button class="btn waves-effect blue col s8 offset-s2" type="submit">
+                    Iniciar Sesión
+                    <i class="material-icons right">send</i>
+                </button>
+            </div>
+        </form>
+    </div>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="scripts/platformOverrides.js"></script>
+    <script src="scripts/jquery-3.3.1.js"></script>
+    <script src="scripts/materialize/materialize.js"></script>
+</body>
+</html>

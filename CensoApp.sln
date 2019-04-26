@@ -31,9 +31,9 @@ Global
 		{DF34C8D4-D6DB-4986-BA40-30F374587D0A}.Debug|Windows-x64.ActiveCfg = Debug|Windows-x64
 		{DF34C8D4-D6DB-4986-BA40-30F374587D0A}.Debug|Windows-x64.Build.0 = Debug|Windows-x64
 		{DF34C8D4-D6DB-4986-BA40-30F374587D0A}.Debug|Windows-x64.Deploy.0 = Debug|Windows-x64
-		{DF34C8D4-D6DB-4986-BA40-30F374587D0A}.Debug|Windows-x86.ActiveCfg = Debug|Windows-x86
-		{DF34C8D4-D6DB-4986-BA40-30F374587D0A}.Debug|Windows-x86.Build.0 = Debug|Windows-x86
-		{DF34C8D4-D6DB-4986-BA40-30F374587D0A}.Debug|Windows-x86.Deploy.0 = Debug|Windows-x86
+		{DF34C8D4-D6DB-4986-BA40-30F374587D0A}.Debug|Windows-x86.ActiveCfg = Debug|Android
+		{DF34C8D4-D6DB-4986-BA40-30F374587D0A}.Debug|Windows-x86.Build.0 = Debug|Android
+		{DF34C8D4-D6DB-4986-BA40-30F374587D0A}.Debug|Windows-x86.Deploy.0 = Debug|Android
 		{DF34C8D4-D6DB-4986-BA40-30F374587D0A}.Release|Android.ActiveCfg = Release|Android
 		{DF34C8D4-D6DB-4986-BA40-30F374587D0A}.Release|Android.Build.0 = Release|Android
 		{DF34C8D4-D6DB-4986-BA40-30F374587D0A}.Release|Android.Deploy.0 = Release|Android
