@@ -1,0 +1,38 @@
+﻿main {
+    height: calc(100% - 56px) !important;
+    margin-top:-2%;
+}
+
+/*nav {
+    background-color: aliceblue;
+}*/
+
+.logo {
+    height: 100px;
+    width: 100px;
+    /*margin-left: 30%;*/
+    background: url(../images/Icon.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: -6%;
+}
+
+.familyDates{
+    width:90%;
+}
+
+.full {
+    width:100%!important;
+}
+
+.collection .collection-item.avatar {min-height:62px;}
+
+.search {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.search .input-field {
+    width:100%;
+}

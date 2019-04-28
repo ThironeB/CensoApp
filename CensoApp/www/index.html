@@ -1,29 +1,65 @@
 ﻿<!DOCTYPE html>
 <html>
-    <head>
-    <!--
-        Personalice la directiva de seguridad de contenido en la etiqueta meta como sea necesario. Agregue "unsafe-inline" a default-src para permitir JavaScript insertado.
-        Para obtener más detalles, consulte http://go.microsoft.com/fwlink/?LinkID=617521
-    -->
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
-        
-        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-        <meta name="format-detection" content="telephone=no">
-        <meta name="msapplication-tap-highlight" content="no">
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
-        <link rel="stylesheet" type="text/css" href="css/index.css">
-        <title>CensoApp</title>
-    </head>
-    <body>
-        <div class="app">
-            <h1>Apache Cordova</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Conectando con el dispositivo</p>
-                <p class="event received">El dispositivo está preparado</p>
+<head>
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/materialize/css/materialize.css" />
+    <link rel="stylesheet" type="text/css" href="css/animsition.css" />
+    <link rel="stylesheet" type="text/css" href="css/loading.css" />
+    <link rel="stylesheet" type="text/css" href="css/general.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <title>Inicio</title>
+</head>
+<body class="animsition">
+    <header>
+        <nav>
+            <div class="nav-wrapper">
+                <a class="brand-logo center logo"></a>
+            </div>
+        </nav>
+    </header>
+    <main class="valign-wrapper">
+        <div class="container center-align">
+            <div class="collection">
+                <a href="familylist.html?id=1" class="collection-item blue-text">Zona A<i class="material-icons right blue-text">home</i></a>
+                <a href="familylist.html?id=2" class="collection-item blue-text">Zona B<i class="material-icons right blue-text">home</i></a>
+                <a href="familylist.html?id=3" class="collection-item blue-text">Zona C<i class="material-icons right blue-text">home</i></a>
             </div>
         </div>
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="scripts/platformOverrides.js"></script>
-        <script type="text/javascript" src="scripts/index.js"></script>
-    </body>
+        <div class="fixed-action-btn">
+            <a class="btn-floating btn-large blue" onclick="openModal();"><i class="material-icons">add</i></a>
+        </div>
+    </main>
+
+    <div id="mdlRegistrarZona" class="modal">
+        <div class="modal-content">
+            <h4>Registrar Zona</h4>
+            <div class="row">
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="NombreZona" type="text" data-length="20" maxlength="20">
+                            <label for="NombreZona">Zona</label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat btnSubmit">Registrar</a>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="scripts/platformOverrides.js"></script>
+    <script type="text/javascript" src="scripts/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="scripts/animsition.js"></script>
+    <script type="text/javascript" src="scripts/general.js"></script>
+    <script type="text/javascript" src="scripts/materialize/materialize.js"></script>
+    <script type="text/javascript" src="scripts/index.js"></script>
+</body>
 </html>

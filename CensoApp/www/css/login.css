@@ -1,1 +1,43 @@
-﻿html, body{width:100%;height:100%;}
+﻿main {
+    height: 90% !important;
+    margin-top: 10% !important;
+}
+
+.LoginForm {
+    background-color: aliceblue;
+    opacity: 1;
+    box-shadow: 4px 4px 15px -3px rgba(0,0,0,0.81);
+    margin-bottom:5%;
+    width:90%;
+    height:100%;
+    margin-left:5%;
+    padding-top:1.5%;
+}
+
+.LoginForm .prefix {
+    padding-top: 2.5%;
+}
+
+.logo {
+    height:20vh;
+    width:40%;
+    margin-left:30%;
+    background: url(../images/Logo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.registrar {
+    color: #2196f3;
+    width:97%;
+    font-weight:bold;
+    font-size:11px;
+}
+
+#Registro .row {
+    margin-bottom:0%;
+}
+
+#Registro .submitlogup {
+    margin-bottom: 15px;
+}
